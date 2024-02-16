@@ -41,7 +41,7 @@ function newQuote(){
 }
 //  get quotes from API
 async function getQuotes(){
-    loading();
+    showLoadingSpinner();
     // const apiUrl= 'https://type.fit/api/quotes';
     const apiUrl='https://jacintodesign.github.io/quotes-api/data/quotes.json';
 
